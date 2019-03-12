@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Friend Finder Application\r Description\r This App matches friends based on the user's responses to ten survey questions. The value of these survey questions ranges from 1 (Strongly Disagree) to 5 (Strongly Agree). Once completed and submitted, an existing closest match record based on the lowest absolute difference to the ten questions is returned.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
